@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form class="form" onsubmit="return validateform()">
+        <p><b>Name : <b></b><input id="name" type="text" placeholder="Enter your name"></p>
+        <p><b>Password : </b><input type="password" class="invalid" id="password" placeholder="Enter your password"></p>
+        <p><b>E-mail id : </b><input type="email" placeholder="Enter your email"></p>
+        <p><b>Phone No.: </b><input type="text" placeholder="Enter your phone number"></p>
+        <p><b>Sex : </b>
+            <input type="radio" class="radio"><label>Male</label>
+            <input type="radio" class="radio"><label>Female</label>
+            <input type="radio" class="radio"><label>Others</label>
+            </p>
+        <p><b>DOB : </b> <input type="date"></p>
+        <label><b>Languages Known :</b>
+             <input type="checkbox">English
+             <input type="checkbox">Hindi
+             <input type="checkbox">Tamil
+             <input type="checkbox">Telugu
+             <input type="checkbox">French
+             <input type="checkbox">German
+        </label>
+        <p><b>Address :</b> <input type="text" placeholder="Enter your current address"></p>
+        <button>Submit</button>
+   </form>    
+   </div>
+   <script href="script.js"></script>
+</body>
+</html>

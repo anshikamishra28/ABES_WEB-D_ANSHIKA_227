@@ -1,0 +1,16 @@
+.addbtn:hover{
+    
+    background-color: salmon;
+}
+
+.addbtn{
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+.icon {
+    border-radius: 4px;
+  margin-right: 8px; 
+}

@@ -1,0 +1,15 @@
+.form{
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+    background-color:blanchedalmond;
+}
+
+.radio{
+    border-radius: 10px;
+}
+
+.radio:hover{
+    background-color: coral;
+}

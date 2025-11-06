@@ -1,0 +1,28 @@
+.main{
+    margin: auto;
+    width: 90%;
+    height : 380px;
+}
+
+.table-container {
+  margin: auto;
+  width: 100%;
+ 
+}
+
+table.main {
+  
+  border-collapse: collapse;  
+}
+
+table.main td {
+  padding:5px;
+  vertical-align: top;
+  border: 1px solid;
+}
+
+.frame{
+    height:320px;
+    width: 100%;
+    margin: auto;
+}
