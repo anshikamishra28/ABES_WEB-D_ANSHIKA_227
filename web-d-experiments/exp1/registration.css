@@ -13,3 +13,7 @@
 .radio:hover{
     background-color: coral;
 }
+
+.formerror{
+    color: red;
+}

@@ -7,12 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-    <form class="form" onsubmit="return validateform()">
-        <p><b>Name : <b></b><input id="name" type="text" placeholder="Enter your name"></p>
-        <p><b>Password : </b><input type="password" class="invalid" id="password" placeholder="Enter your password"></p>
-        <p><b>E-mail id : </b><input type="email" placeholder="Enter your email"></p>
-        <p><b>Phone No.: </b><input type="text" placeholder="Enter your phone number"></p>
+   
+    <form class="form" action="/myaction.php" name="myform" onsubmit="return validateform()" method="post">
+         <div class="container" id="name">
+        <p><b>Name : </b><input type="text" name="fname" placeholder="Enter your name"><span class="formerror"></span></p>
+        </div>
+        <div id="password" class="container">
+        <p><b>Password : </b><input type="password" name="fpassword" class="invalid" placeholder="Enter your password"><span class="formerror"></span></p>
+        </div>
+        <div id="email" class="container">
+        <p><b>E-mail id : </b><input type="email" name="femail" placeholder="Enter your email"><span class="formerror"></span></p>
+        </div>
+        <div id="phone" class="container">
+        <p><b>Phone No.: </b><input type="tel" name="fphone" placeholder="Enter your phone number"><span class="formerror"></span></p>
+        </div>
         <p><b>Sex : </b>
             <input type="radio" class="radio"><label>Male</label>
             <input type="radio" class="radio"><label>Female</label>
@@ -28,9 +36,9 @@
              <input type="checkbox">German
         </label>
         <p><b>Address :</b> <input type="text" placeholder="Enter your current address"></p>
-        <button>Submit</button>
+        <input class="button" type="submit" value="Submit">
    </form>    
-   </div>
-   <script href="script.js"></script>
+   
+   <script src="script.js"></script>
 </body>
 </html>
